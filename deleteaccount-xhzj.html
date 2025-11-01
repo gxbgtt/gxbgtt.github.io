@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoopLegends: Idle Vortex - Account Deletion Request</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4285f4;
+            position: relative;
+        }
+        
+        .language-switcher {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        
+        .lang-btn {
+            background: #4285f4;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .lang-btn:hover {
+            background: #3367d6;
+        }
+        
+        .game-title {
+            color: #4285f4;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #4285f4;
+        }
+        
+        .section-title {
+            color: #4285f4;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .step {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        
+        .step-number {
+            background: #4285f4;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .warning-title {
+            color: #856404;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        .data-table th, .data-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .data-table th {
+            background: #4285f4;
+            color: white;
+        }
+        
+        .data-table tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+        
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .email-link {
+            color: #4285f4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .email-link:hover {
+            text-decoration: underline;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .section {
+                padding: 15px;
+            }
+            
+            .language-switcher {
+                position: static;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="language-switcher">
+                <button class="lang-btn" onclick="toggleLanguage()">中文 / Chinese</button>
+            </div>
+            <div class="game-title">LoopLegends: Idle Vortex</div>
+            <h1 id="page-title">Account Deletion Request</h1>
+        </div>
+
+        <!-- English Content -->
+        <div id="english-content">
+            <div class="section">
+                <div class="section-title">Steps to Delete Account</div>
+                <div class="step">
+                    <span class="step-number">1</span>
+                    Open LoopLegends: Idle Vortex game
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    Go to "Settings" menu in the game
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    Find and click "Delete Account" option
+                </div>
+                <div class="step">
+                    <span class="step-number">4</span>
+                    Follow the on-screen instructions to confirm deletion
+                </div>
+            </div>
+
+            <div class="warning">
+                <div class="warning-title">Important Warning & Risk Notice</div>
+                <p>Account deletion is irreversible and cannot be undone. Please read the following risks carefully:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>All game progress, virtual items, currency and achievements will be permanently lost</li>
+                    <li>Deleted account data cannot be recovered</li>
+                    <li>All purchase history and game records will be erased</li>
+                    <li>You will need to create a new account if you wish to play again</li>
+                </ul>
+                <p style="margin-top: 15px; font-weight: bold;">
+                    You are solely responsible for all consequences of account deletion. The developer is not liable for any losses resulting from account deletion.
+                </p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Data Processing Information</div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Data Type</th>
+                            <th>Processing Method</th>
+                            <th>Retention Period</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Game Progress Data</td>
+                            <td>Permanently Deleted</td>
+                            <td>Immediately</td>
+                        </tr>
+                        <tr>
+                            <td>User Account Information</td>
+                            <td>Permanently Deleted</td>
+                            <td>Immediately</td>
+                        </tr>
+                        <tr>
+                            <td>Virtual Items & Currency</td>
+                            <td>Permanently Deleted</td>
+                            <td>Immediately</td>
+                        </tr>
+                        <tr>
+                            <td>Purchase Records</td>
+                            <td>Legally Retained</td>
+                            <td>7 years</td>
+                        </tr>
+                        <tr>
+                            <td>Customer Service Records</td>
+                            <td>Legally Retained</td>
+                            <td>3 years</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Additional Information</div>
+                <p>Account deletion requests typically take 1-3 business days to process. You will not be able to log in to the game during this period.</p>
+                <p style="margin-top: 10px;">According to legal requirements, some data (such as transaction records) must be retained for a specific period and will be automatically deleted after the retention period expires.</p>
+            </div>
+
+            <div class="contact-info">
+                <p>If you have any questions, please contact the developer:</p>
+                <a href="mailto:gxbgtt@gmail.com" class="email-link">gxbgtt@gmail.com</a>
+            </div>
+        </div>
+
+        <!-- Chinese Content -->
+        <div id="chinese-content" class="hidden">
+            <div class="section">
+                <div class="section-title">删除账号步骤</div>
+                <div class="step">
+                    <span class="step-number">1</span>
+                    打开 LoopLegends: Idle Vortex 游戏
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    进入游戏内的"设置"菜单
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    找到并点击"删除账号"选项
+                </div>
+                <div class="step">
+                    <span class="step-number">4</span>
+                    按照屏幕提示确认删除操作
+                </div>
+            </div>
+
+            <div class="warning">
+                <div class="warning-title">重要警告与风险提示</div>
+                <p>删除账号是不可逆的操作，一旦执行将无法恢复。请仔细阅读以下风险提示：</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>所有游戏进度、虚拟物品、货币和成就将永久丢失</li>
+                    <li>无法恢复已删除的账号数据</li>
+                    <li>所有购买记录和游戏历史将被清除</li>
+                    <li>如需重新游戏，需要创建全新账号</li>
+                </ul>
+                <p style="margin-top: 15px; font-weight: bold;">
+                    您需要自行承担删除账号的所有后果，开发者对因账号删除造成的任何损失不承担责任。
+                </p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">数据处理说明</div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>数据类型</th>
+                            <th>处理方式</th>
+                            <th>保留期限</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>游戏进度数据</td>
+                            <td>永久删除</td>
+                            <td>立即删除</td>
+                        </tr>
+                        <tr>
+                            <td>用户账号信息</td>
+                            <td>永久删除</td>
+                            <td>立即删除</td>
+                        </tr>
+                        <tr>
+                            <td>虚拟物品和货币</td>
+                            <td>永久删除</td>
+                            <td>立即删除</td>
+                        </tr>
+                        <tr>
+                            <td>购买记录</td>
+                            <td>依法保留</td>
+                            <td>7年（税务要求）</td>
+                        </tr>
+                        <tr>
+                            <td>客服沟通记录</td>
+                            <td>依法保留</td>
+                            <td>3年</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section">
+                <div class="section-title">额外说明</div>
+                <p>账号删除请求处理通常需要1-3个工作日。处理期间您将无法登录游戏。</p>
+                <p style="margin-top: 10px;">根据相关法律法规要求，部分数据（如交易记录）需要保留特定期限，这些数据将在保留期满后自动删除。</p>
+            </div>
+
+            <div class="contact-info">
+                <p>如有任何疑问，请联系开发者：</p>
+                <a href="mailto:gxbgtt@gmail.com" class="email-link">gxbgtt@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleLanguage() {
+            const englishContent = document.getElementById('english-content');
+            const chineseContent = document.getElementById('chinese-content');
+            const pageTitle = document.getElementById('page-title');
+            const langBtn = document.querySelector('.lang-btn');
+            
+            if (englishContent.classList.contains('hidden')) {
+                // Switch to English
+                englishContent.classList.remove('hidden');
+                chineseContent.classList.add('hidden');
+                pageTitle.textContent = 'Account Deletion Request';
+                langBtn.textContent = '中文 / Chinese';
+            } else {
+                // Switch to Chinese
+                englishContent.classList.add('hidden');
+                chineseContent.classList.remove('hidden');
+                pageTitle.textContent = '账号删除请求';
+                langBtn.textContent = 'English / 英文';
+            }
+        }
+    </script>
+</body>
+</html>
